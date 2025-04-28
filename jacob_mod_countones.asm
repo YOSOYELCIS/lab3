@@ -69,7 +69,7 @@ exit:
 input: .word 0
 user: .byte 'y'
 welcome: .string "Welcome to the CountOnes Program.\n"
-enter: .string "\nPlease enter a number: "
+enter: .string "\nPlease enter a number: " #sometimes when I run this \n charachter it messes with the spacing for the prompt and sometimes it doesnt. But the Screenshot shows the spacing working for the while loop
 bitcount: .string "The number of bits set is: "
 continue: .string "\nContinue (y/n)?: "
 exiting: .string "\nExiting"
